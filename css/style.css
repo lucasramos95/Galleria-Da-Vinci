@@ -1,4 +1,4 @@
-.titulo-site {
+.titulo-site, h5 {
     font-family: 'Merriweather', serif;
     font-weight: bold;
 }
@@ -7,4 +7,5 @@
     border: 0;
     border-top: 1px solid #CCC;
     margin: 10px 20px;
-  }
+}
+
