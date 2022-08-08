@@ -1,4 +1,7 @@
-.titulo-site, h5 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Merriweather', serif;
     font-weight: bold;
 }
@@ -7,4 +10,36 @@
     border: 0;
     border-top: 1px solid #CCC;
     margin: 10px 20px;
+}
+
+.container-1 {
+    display: flex;
+    padding: 1em;
+}
+
+.container-2 {
+    display: flex;
+    padding: 1em;
+}
+
+.container-3 {
+    display: flex;
+    padding: 1em;
+}
+
+.container-1 img {
+    width: 96%;
+}
+
+.container-2 img {
+    width: 96%;
+}
+
+.container-3 img {
+    width: 96%;
+}
+
+img:hover {
+    opacity: 80%;
+    cursor: pointer;
 }
