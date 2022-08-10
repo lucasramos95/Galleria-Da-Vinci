@@ -28,18 +28,26 @@
 }
 
 .container-1 img {
-    width: 96%;
+    width: 95%;
 }
 
 .container-2 img {
-    width: 96%;
+    width: 95%;
 }
 
 .container-3 img {
-    width: 96%;
+    width: 95%;
 }
 
 img:hover {
     opacity: 80%;
     cursor: pointer;
+}
+
+p {
+    position: relative;
+    bottom: 50px;
+    color: white;
+    left: 15px;
+    text-shadow: 1px 1px 5px black;
 }
